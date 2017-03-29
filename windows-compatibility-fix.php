@@ -75,7 +75,7 @@ self::_debug( 'filter_upgrader_download() called. setting flag.' );
 		 * @param string $msg The message to log
 		 */
 		public static function _debug( $msg ) {
-			if (self::DEBUG) {
+			if (defined('WP_DEBUG') && WP_DEBUG) {
 				$file = dirname(__FILE__) . '/~log.txt';
 				$fh = fopen($file, 'a+');
 				if ( FALSE !== $fh ) {
