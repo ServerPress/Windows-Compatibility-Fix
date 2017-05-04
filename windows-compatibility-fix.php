@@ -42,7 +42,7 @@ self::_debug( 'filter_unique_filename() called' );
 			if ( self::$_upgrade && ( strlen( $filename ) > 120 && '.tmp' === $ext ) ) {
 self::_debug( 'filter_unique_filename() long file name: ' . $filename );
 self::_debug( ' ext=[' . $ext . ']  dir=[' . $dir . ']' );
-				$file = tempnam( $dir, 'wpu' );		// creates a new, guaranteed unique filename with 'wpu' prefix
+				$file = tempnam( $dir, 'wcf' );		// creates a new, guaranteed unique filename with 'wcf' prefix
 self::_debug( ' file=' . $file );
 				@unlink( $file );					// remove the file, since we're changing the name by adding an extension
 				$file .= $ext;						// add the extension to the filename being returned
@@ -59,7 +59,7 @@ self::_debug( ' returning unmodified filename=[' . $filename . ']' );
 		 * Callback for 'upgrade_pre_download' filter called in WP_Upgrader->download_package().
 		 * Used to signal the filter_unique_filename() method to modify the filename if it's too long
 		 * @param boolean $result Result value.
-		 * @param  string $package The package URL.
+		 * @param string $package The package URL.
 		 * @param WP_Upgrade $wp_upgrader The instance of the WP_Upgrader class calling this filter
 		 * @return boolean The unmodified $result value.
 		 */
