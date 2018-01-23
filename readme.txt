@@ -1,9 +1,9 @@
-=== Windows Compatability Fix ===
+=== Windows Compatibility Fix ===
 Contributors: serverpress, spectromtech, davejesch, Steveorevo
 Donate link: http://serverpress.com
 Tags: windows, upgrade, update, plugin, theme, long filename, create, directory, error, desktopserver, edd
 Requires at least: 4.0
-Tested up to: 4.7.3
+Tested up to: 4.9
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -55,8 +55,11 @@ or, you can upload the files directly to your server.
 1. Plugin page.
 
 == Changelog ==
+= 1.0.1 - Jan 22, 2017 =
+* Fix typo in plugin name in readme (Thanks Dave C.)
+
 = 1.0.0 - May 3, 2017 =
-Initial release to WordPress repository.
+* Initial release to WordPress repository.
 
 = 1.0.0 - Mar 29, 2017 =
 * Initial Release
