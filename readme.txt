@@ -55,6 +55,9 @@ or, you can upload the files directly to your server.
 1. Plugin page.
 
 == Changelog ==
+= 1.0.2 - Aug 27, 2018 =
+* Make this a DesktopServer Must-Use plugin
+
 = 1.0.1 - Jan 22, 2017 =
 * Fix typo in plugin name in readme (Thanks Dave C.)
 
