@@ -1,0 +1,16 @@
+{
+    "name": "serverpress/Windows-Compatibility-Fix",
+    "description": "Fixes long filename problem on Windows systems when doing updates, such as updating from EDD based sites.",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors":[
+        {
+            "name": "Dave Jesch",
+            "email": "d.jesch@serverpress.com",
+            "homepage": "https://github.com/ServerPress/Windows-Compatibility-Fix"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
