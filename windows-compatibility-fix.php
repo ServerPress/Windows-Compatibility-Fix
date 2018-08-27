@@ -6,6 +6,7 @@ Description: Fixes long filename problem on Windows systems when doing updates, 
 Version: 1.0.1
 Author: Dave Jesch
 Author URI: http://serverpress.com
+Tags: must-use
 Text Domain: windows-compatibility-fix
 Domain path: /language
  */
