@@ -1,7 +1,7 @@
 <?php
 /**
 Plugin Name: Windows Compatibility Fix
-Plugin URL: https://serverpress.com/plugins/windows-compatibility-fix
+Plugin URI: https://serverpress.com/plugins/windows-compatibility-fix
 Description: Fixes long filename problem on Windows systems when doing updates, such as updating from EDD based sites.
 Version: 1.0.2
 Author: Dave Jesch
